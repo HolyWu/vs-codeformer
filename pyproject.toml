@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vscodeformer"
+version = "1.0.0"
+description = "CodeFormer function for VapourSynth"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "HolyWu", email = "holywu@gmail.com"}]
+keywords = ["CodeFormer", "VapourSynth"]
+classifiers = [
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Multimedia :: Video"
+]
+dependencies = [
+  "numpy>=1.24.2",
+  "opencv-python>=4.7.0.72",
+  "requests>=2.28.2",
+  "torch>=1.13.1",
+  "torchvision>=0.14.1",
+  "tqdm>=4.65.0",
+  "VapourSynth>=55"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HolyWu/vs-codeformer"
+"Bug Tracker" = "https://github.com/HolyWu/vs-codeformer/issues"
