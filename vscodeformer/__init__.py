@@ -13,7 +13,7 @@ from .codeformer_arch import CodeFormer
 from .face_restoration_helper import FaceRestoreHelper
 from .img_util import img2tensor, tensor2img
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 os.environ["CUDA_MODULE_LOADING"] = "LAZY"
 
