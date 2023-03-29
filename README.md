@@ -3,10 +3,13 @@ Towards Robust Blind Face Restoration with Codebook Lookup TransFormer, based on
 
 
 ## Dependencies
+- [Dlib](http://dlib.net/)
 - [NumPy](https://numpy.org/install)
 - [OpenCV-Python](https://github.com/opencv/opencv-python)
 - [PyTorch](https://pytorch.org/get-started) 1.13.1
 - [VapourSynth](http://www.vapoursynth.com/) R55+
+
+`Dlib` is only required when using `detector=1`. Windows users can download the Python wheel file on [Releases](https://github.com/HolyWu/vs-codeformer/releases).
 
 
 ## Installation
