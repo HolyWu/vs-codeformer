@@ -23,12 +23,11 @@ def download_model(url: str) -> None:
 
 if __name__ == "__main__":
     url = "https://github.com/HolyWu/vs-codeformer/releases/download/model/"
-    models = [
-        "codeformer",
-        "detection_Resnet50_Final",
-        "mmod_human_face_detector-4cb19393",
-        "parsing_parsenet",
-        "shape_predictor_5_face_landmarks-c4b1e980",
-    ]
+
+    models = ["codeformer", "detection_Resnet50_Final", "parsing_parsenet"]
     for model in models:
         download_model(url + model + ".pth")
+
+    models = ["mmod_human_face_detector-4cb19393", "shape_predictor_5_face_landmarks-c4b1e980"]
+    for model in models:
+        download_model(url + model + ".dat")
